@@ -4,7 +4,7 @@ module "Shared_Dev_Low_Env" {
   control_tower_parameters = {
     AccountEmail              = "techtechy13111993+account-lz2-shared-devlwenv@gmail.com"
     AccountName               = "account-lz2-shared-devlwenv"
-    ManagedOrganizationalUnit = "Infra-OU"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "techtechy13111993+account-lz2-shared-devlwenv@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
