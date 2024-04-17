@@ -1,11 +1,11 @@
-module "testaccount3" {
+module "Shared_Dev_Low_Env" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "techtechy13111993+testaccount3@gmail.com"
-    AccountName               = "testaccount3"
-    ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "techtechy13111993+testaccount3@gmail.com"
+    AccountEmail              = "techtechy13111993+account-lz2-shared-devlwenv@gmail.com"
+    AccountName               = "account-lz2-shared-devlwenv"
+    ManagedOrganizationalUnit = "Infra-OU"
+    SSOUserEmail              = "techtechy13111993+account-lz2-shared-devlwenv@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
@@ -23,5 +23,5 @@ module "testaccount3" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "Shared_Dev_Low_Env"
 }
