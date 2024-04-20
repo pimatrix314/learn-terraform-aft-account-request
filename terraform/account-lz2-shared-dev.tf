@@ -2,10 +2,10 @@ module "Shared_Dev_Low_Env" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "techtechy13111993+account-lz2-shared-devlwenv@gmail.com"
-    AccountName               = "account-lz2-shared-devlwenv"
+    AccountEmail              = "techtechy13111993+account-lz2-shared-dev@gmail.com"
+    AccountName               = "account-lz2-shared-dev"
     ManagedOrganizationalUnit = "Infra-OU"
-    SSOUserEmail              = "techtechy13111993+account-lz2-shared-devlwenv@gmail.com"
+    SSOUserEmail              = "techtechy13111993+account-lz2-shared-dev@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
